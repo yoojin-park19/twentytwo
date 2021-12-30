@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'KyoboHandwriting2020A';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/KyoboHandwriting2020A.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ACCchildrenheartOTF-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112-2@1.0/ACCchildrenheartOTF-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 표지 */
+
+.back {
+    font-family: 'KyoboHandwriting2020A';
+    display: flex;
+    justify-content: cneter;
+    flex-direction: column;
+    align-items: center;
+    background-color: palegoldenrod;
+    height: 100vh;
+}
+.tit-wrap {
+    max-width: 375px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin-top: 80px;
+}
+.cow-img {
+    max-width: 150px;
+}
+.tiger-img {
+    max-width: 150px;
+}
+.cont-txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 ;
+    padding: 50px;
+}
+.cont-txt  strong{
+    font-size: 40px;
+    text-align: center;
+}
+.cont-txt p {
+    font-size: 20px;
+    margin: 40px 0 20px;
+}
+.cont-txt .btn-start {
+    width: 200px;
+    height: 40px;
+    background-color: bisque;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 100px;
+}
+.cont-img p {
+    font-family: 'ACCchildrenheartOTF-Regular';
+}
+
+/* test */
+#qus {
+    max-width: 375px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin-top: 80px;
+    height: 690px;
+}
+.cont-qst {
+    display: flex;
+    justify-content: cneter;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0;
+    font-family: 'ACCchildrenheartOTF-Regular';
+    padding: 50px;
+}
+.cont-qst h2 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.cont-qst p {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.cont-qst #yes {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: khaki;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.cont-qst #no {
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    background-color: darksalmon;
+    border-radius: 15px;
+}
+#btnResult {
+    background-color: coral;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 8px;
+    margin-top: 100px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* result */
+#testResult {
+    display: none;
+}
+.wrap-result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'KyoboHandwriting2020A';
+    max-width: 375px;
+    border: 1px solid #999;
+    background-color: #fff;
+    margin-top: 80px;
+    height: 690px;
+    padding: 10px;
+}
+#img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+#titResult {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#dscResult {
+    max-width: 400px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'ACCchildrenheartOTF-Regular';
+}
+.btn-reset {
+    background-color: coral;
+    width: 300px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 7px;
+    cursor: pointer;
+}
